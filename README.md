@@ -68,16 +68,16 @@ Base de datos:
 SQLite con Sequelize
 
 ## Estructura del Proyecto 📂
-• app.js: Archivo principal del servidor. Configura las rutas, middlewares, y establece la conexión con la base de datos.
-• middlewares/: Contiene middlewares personalizados para manejar la seguridad y la lógica de la aplicación.
-  • authMiddleware.js: Valida los tokens JWT para autenticar a los usuarios.
-  • roleMiddleware.js: Verifica los roles de los usuarios para permitir acceso a rutas específicas.
-  • loginLimiter.js: Maneja intentos fallidos de inicio de sesión y aplica bloqueos temporales para prevenir ataques de fuerza bruta.
-• models/: Define los modelos de datos y la conexión con la base de datos.
-  • database.js: Configuración de la base de datos SQLite.
-  • User.js: Modelo de usuario que incluye campos como email, password y role.
-• routes/: Contiene las definiciones de rutas.
-  • authRoutes.js: Rutas para el registro, inicio de sesión y rutas protegidas por autenticación y roles.
+- **`app.js`:** Archivo principal del servidor. Configura las rutas, middlewares, y establece la conexión con la base de datos.
+- **`middlewares/`:** Contiene middlewares personalizados para manejar la seguridad y la lógica de la aplicación.
+  - **`authMiddleware.js`:** Valida los tokens JWT para autenticar a los usuarios.
+  - **`roleMiddleware.js`:** Verifica los roles de los usuarios para permitir acceso a rutas específicas.
+  - **`loginLimiter.js`:** Maneja intentos fallidos de inicio de sesión y aplica bloqueos temporales para prevenir ataques de fuerza bruta.
+- **`models/`:** Define los modelos de datos y la conexión con la base de datos.
+  - **`database.js`:** Configuración de la base de datos SQLite.
+  - **`User.js`:** Modelo de usuario que incluye campos como `email`, `password` y `role`.
+- **`routes/`:** Contiene las definiciones de rutas.
+  - **`authRoutes.js`:** Rutas para el registro, inicio de sesión y rutas protegidas por autenticación y roles.
 
 ## Contribuciones 🤝
 Las contribuciones son bienvenidas. Si tienes ideas para mejorar la aplicación, crea un fork del repositorio y envía un pull request.
