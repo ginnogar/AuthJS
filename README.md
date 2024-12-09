@@ -68,17 +68,17 @@ Base de datos:
 SQLite con Sequelize
 
 ## Estructura del proyecto
-src/
-├── app.js                 # Punto de entrada del servidor
-├── middlewares/           # Middlewares de autenticación y roles
-│   ├── authMiddleware.js
-│   ├── roleMiddleware.js
-│   ├── loginLimiter.js
-├── models/                # Modelos de base de datos
-│   ├── User.js
-│   ├── database.js
-├── routes/                # Rutas principales
-│   ├── authRoutes.js
+• src/
+  app.j: Punto de entrada del servidor
+    middewares/: Middlewares de autenticación y roles
+      authMiddleware.js
+      roleMiddleware.js
+      loginLimiter.js
+  modeels/: Modelos de base de datos
+    User.js
+    database.js
+  routes/: Rutas principales
+    authRoutes.js
 
 ## Contribuciones 🤝
 Las contribuciones son bienvenidas. Si tienes ideas para mejorar la aplicación, crea un fork del repositorio y envía un pull request.
